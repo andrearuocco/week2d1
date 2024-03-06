@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.card{
+    background-image: url(./immagini/drive-download-20231002T194425Z-001/Copia\ di\ Copia\ di\ 825716941387441.png);
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 25vh;
+    left: 40vw;
+    box-shadow: 0 0 8px rgba(41, 23, 107, 0.587);
+    background-size: cover;
+}
+
+.card:hover{
+    box-shadow: 0 0 16px rgb(41, 23, 107); 
+    transition: box-shadow 2s;
+}
+
+.to-ri{
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+    left: 195px;
+    background-color: red;
+    width: 30%;
+    height: 50px;
+    border-radius: 80px/60px;
+}
+
+.card:hover .to-ri{
+    transform:  translateY(130%);
+    opacity: 1;
+}
+
+.bo-ri{
+    opacity: 0;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    background-color:white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.bo-ce{
+    opacity: 0;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.bo-le{
+    opacity: 0;
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    background-color: white;
+    width: 55%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.card:hover .bo-le{
+    transform:  translateY(-140%);
+    opacity: 1; 
+}
+
+.card:hover .bo-ce{
+    transform:  translateY(-140%);
+    opacity: 1; 
+}
+
+.card:hover .bo-ri{
+    transform:  translateY(-140%);
+    opacity: 1;
+}
+
+.axxolute-to {
+    position: absolute;
+    left: 33%;
+    top: -5px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.axxolute-le{
+    position: absolute;
+    top: 9.5px;
+    left: 10px;
+}
+
+.bo-le span{
+    position: absolute;
+    top: 7.5px;
+    left: 30px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+}
+
+.axxolute-ce{
+    position: absolute;
+    top: 9.5px;
+    left: 30%;
+}
+
+.box-shadow{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+    display: none;
+}
+
+.card:hover .box-shadow{
+    opacity: 0.3;
+    display: block;
+}
+
+
